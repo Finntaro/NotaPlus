@@ -22,5 +22,5 @@ http:
 
 script-providers:
   NotaPlus:
-    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
+    url: https://raw.githubusercontent.com/Finntaro/NotaPlus/main/Script/NotaPlus.js
     interval: 86400
