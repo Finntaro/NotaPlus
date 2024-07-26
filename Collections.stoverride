@@ -1,0 +1,26 @@
+name: NotaPlus
+desc: Notability Plus解锁
+
+#=============【使用说明】=============#
+# 使用方法：先开脚本再打开App，自动会生效，如果无效就关了重开或者按一下恢复购买，在还不行就卸载App重新安装，最后还不行的话就是脚本失效了！
+
+# 特别说明：此脚本可能会导致某些网页打不开
+
+# 解决方法：关[MITM][脚本][代理工具]方法选一即可
+#=============UserScript=============#
+http:
+  script:
+    # NotaPlus
+    - match: https?:\/\/notability\.com\/(global|subscriptions)
+      name: NotaPlus
+      type: response
+      require-body: true
+      timeout: 10
+
+  mitm:
+    - 'notability.com'
+
+script-providers:
+  NotaPlus:
+    url: https://raw.githubusercontent.com/chxm1023/Rewrite/main/notability.js
+    interval: 86400
