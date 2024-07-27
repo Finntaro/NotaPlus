@@ -14,7 +14,7 @@
 #************************************#
 # Notability
 # hostname = notability.com
-http-response ^https?:\/\/notability\.com\/(global|subscriptions) script-path=https://raw.githubusercontent.com/Finntaro/NotaPlus/main/Script/NotaPlus.js, requires-body=true, tag=Notability
+http-response ^https?:\/\/notability\.com\/(global|subscriptions) script-path=https://gitee.com/fintaro/nota-plus/raw/main/Script/NotaPlus.js, requires-body=true, tag=Notability
 
 #************************************#
 [MITM]

@@ -1,7 +1,7 @@
 /*************************************
 
 [rewrite_local]
-^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://raw.githubusercontent.com/Finntaro/NotaPlus/main/Script/NotaPlus.js
+^https?:\/\/notability\.com\/(global|subscriptions) url script-response-body https://gitee.com/fintaro/nota-plus/raw/main/Script/NotaPlus.js
 
 [mitm]
 hostname = notability.com

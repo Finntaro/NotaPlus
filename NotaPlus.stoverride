@@ -1,4 +1,4 @@
-#SUBSCRIBED https://raw.githubusercontent.com/Finntaro/NotaPlus/main/NotaPlus.stoverride
+#SUBSCRIBED https://gitee.com/fintaro/nota-plus/raw/main/NotaPlus.stoverride
 name: NotaPlus
 desc: Notability Plus解锁
 
@@ -23,5 +23,5 @@ http:
 
 script-providers:
   NotaPlus:
-    url: https://raw.githubusercontent.com/Finntaro/NotaPlus/main/Script/NotaPlus.js
+    url: https://gitee.com/fintaro/nota-plus/raw/main/Script/NotaPlus.js
     interval: 86400
